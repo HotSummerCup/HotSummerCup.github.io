@@ -170,6 +170,8 @@ display: flex;
 
 .hero {
   padding: 20px;
+  flex: 1;     /* vyplní prostor mezi headerem a footerem */
+
 }
 
 .hero-content {
