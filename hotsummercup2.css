@@ -63,17 +63,17 @@ h2
         margin: 0;
     }
     body {
-  min-height: 100vh;               /* minimálně výška obrazovky */
+  min-height: 100vh;
+  margin: 0;
+
   background-image: url("obrazky/leto3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0;
 
-  display: flex;                   /* KVŮLI FOOTERU */
+  display: flex;
   flex-direction: column;
 }
-
 /* Kontejner kontakt� */
 .contacts {
     display: flex;
@@ -169,8 +169,7 @@ display: flex;
 //responzivita
 
 .hero {
-  padding: 20px;
-  flex: 1;     /* vyplní prostor mezi headerem a footerem */
+  flex-grow: 1;
 
 }
 
