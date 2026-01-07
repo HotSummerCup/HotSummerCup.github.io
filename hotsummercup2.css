@@ -63,15 +63,15 @@ h2
         margin: 0;
     }
     body {
-    background-image: url("obrazky/leto3.png");   /* cesta k obrázku */
-    background-size: cover;                 /* roztáhne obrázek přes celou stránku */
-    background-position: center;            /* vycentruje obrázek */
-    background-repeat: no-repeat;           /* zabrání opakování obrázku */
-    margin: 0;
-    height: 100vh;
-    text-align: center;
-    color: aliceblue;
-    font-size: 20px;
+  min-height: 100vh;               /* minimálně výška obrazovky */
+  background-image: url("obrazky/leto3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+
+  display: flex;                   /* KVŮLI FOOTERU */
+  flex-direction: column;
 }
 
 /* Kontejner kontakt� */
