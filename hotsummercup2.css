@@ -98,6 +98,7 @@ footer {
     width: 100%;
     padding: 15px 0;
     background-color: orange;
+   position: static;
 }
 
 .contacts {
@@ -238,18 +239,12 @@ html, body {
   min-height: 100%;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
+
 
 main {
   flex: 1;
 }
 
-footer {
-  position: static;
-}
 
 h1, h2, h3, p, li, a {
   color: white;
