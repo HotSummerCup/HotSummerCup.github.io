@@ -231,3 +231,26 @@ display: flex;
     height: 40px;
   }
 }
+body {
+  color: white;
+}
+html, body {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  position: static;
+}
+
+h1, h2, h3, p, li, a {
+  color: white;
+}
